@@ -3,6 +3,16 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2023-11-20T10:17:32.611791887Z"
+    description: A Helm chart for Kubernetes
+    digest: adc8304d35ad30d69a50ec97fc9945067c274b51488fae7d84578b96ef2ae4f6
+    name: nginx
+    type: application
+    urls:
+    - https://github.com/sylweltan/helm-charts/releases/download/nginx-0.2.0/nginx-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2023-11-20T10:06:33.978997952Z"
     description: A Helm chart for Kubernetes
     digest: 0175c326224884e2db5a14031b1b2aa7cbbf1da6243fb9e9f006a773e19940f5
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/sylweltan/helm-charts/releases/download/nginx-0.1.0/nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2023-11-20T10:06:33.979004454Z"
+generated: "2023-11-20T10:17:32.611818937Z"
