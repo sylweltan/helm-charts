@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "prometheus-vmware-exporter.fullname" . }}
+  labels:
+    {{- include "prometheus-vmware-exporter.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    {{- include "prometheus-vmware-exporter.selectorLabels" . | nindent 4 }}

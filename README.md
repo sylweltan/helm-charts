@@ -1,8 +1,9 @@
 # sylweltan Helm Charts
 
-[![License](https://img.shields.io/github/license/sylweltan/helm-charts)](/LICENSE)
-![Release Charts](https://github.com/sylweltan/helm-charts/workflows/Release%20Charts/badge.svg)
+[![License](https://img.shields.io/github/license/sylweltan/helm-charts)](/LICENSE.md)
+[![Release Charts](https://github.com/sylweltan/helm-charts/workflows/Release%20Charts/badge.svg)](https://github.com/sylweltan/helm-charts/workflows/Release%20Charts/badge.svg)
 [![Release](https://img.shields.io/github/release/sylweltan/helm-charts.svg)](https://github.com/sylweltan/helm-charts/releases/latest)
+[![Releases downloads](https://img.shields.io/github/downloads/sylweltan/helm-charts/total.svg)](https://github.com/sylweltan/helm-charts/releases)
 
 This functionality is in beta and is subject to change. The code is provided as-is with no warranties. Beta features are not subject to the support SLA of official GA features.
 
@@ -21,7 +22,7 @@ You can then run `helm search repo sylweltan` to see the charts.
 
 ## License
 
-[MIT](https://github.com/sylweltan/helm-charts/blob/main/LICENSE).
+[MIT](https://github.com/sylweltan/helm-charts/blob/main/LICENSE.md)
 
 ## Helm charts build status
 
