@@ -1,0 +1,10 @@
+apiVersion: v2
+type: application
+description: A Helm chart for Kubernetes
+name: prometheus-vmware-exporter
+version: 0.1.0
+appVersion: "1.0.5"
+home: https://github.com/sylweltan/prometheus-vmware-exporter
+maintainers:
+  - name: sylweltan
+    email: 46652341+sylweltan@users.noreply.github.com
