@@ -44,4 +44,19 @@ entries:
     urls:
     - https://github.com/sylweltan/helm-charts/releases/download/nginx-0.1.0/nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2023-11-20T11:05:36.664244008Z"
+  prometheus-vmware-exporter:
+  - apiVersion: v2
+    appVersion: 1.0.5
+    created: "2023-12-03T19:07:55.953642583Z"
+    description: A Helm chart for Kubernetes
+    digest: cbd590f32452c7a5fc90a008c921fcd93c456c64697926b881603d1061083fb0
+    home: https://github.com/sylweltan/prometheus-vmware-exporter
+    maintainers:
+    - email: 46652341+sylweltan@users.noreply.github.com
+      name: sylweltan
+    name: prometheus-vmware-exporter
+    type: application
+    urls:
+    - https://github.com/sylweltan/helm-charts/releases/download/prometheus-vmware-exporter-0.1.0/prometheus-vmware-exporter-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-12-03T19:07:55.953674203Z"
